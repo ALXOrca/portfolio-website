@@ -1,0 +1,14 @@
+<header class="header">
+    <nav class="nav container">
+        <a href="/" class="logo">YourName<span class="logo-dot">.</span></a>
+        <ul class="nav-links">
+            <li><a href="/" class="<%= activePage === 'home' ? 'active' : '' %>">Home</a></li>
+            <li><a href="/projects" class="<%= activePage === 'projects' ? 'active' : '' %>">Projects</a></li>
+            <li><a href="/about" class="<%= activePage === 'about' ? 'active' : '' %>">About</a></li>
+            <li><a href="/contact" class="<%= activePage === 'contact' ? 'active' : '' %>">Contact</a></li>
+        </ul>
+        <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+</header>
